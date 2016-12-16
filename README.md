@@ -11,7 +11,7 @@ Ranks beers based on alcohol % by volume and lists the top 10
 ## 2. beer-recommendation-reviews.ipynb
 One approach is to use simple sorting and ranking of statistical means of overall reviews for all beers to recommend the top few.
 
-The other approach is to build a regression model similar to content-based recommender system and generate a parameter matrix for an avergae user. Given a new beer with an overall rating, we can guess the aroma/taste/body/palate of the beer ot vice-versa.
+The other approach is to build a regression model similar to content-based recommender system and generate a parameter matrix for an average user. Given a new beer with an overall rating, we can guess the aroma/taste/body/palate of the beer or vice-versa.
 
 ## 3. feature-selection.ipynb
 This notebook outlines the methods to identify the important feature among the few selected that is important in determining the overall rating for a beer. This is a simple yet powerful method to identify important features and discard features that doesn't have a significant contribution to the overall trend in the data.
