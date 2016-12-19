@@ -2,19 +2,17 @@
 
 It is always fun to try new beers and we look for recommendations when are out to try a new variety. This tiny project is an attempt to use some reviews (~1.5 Million) of various microbrews across the world collected from www.beeradvocate.com and generate some good recommendations based on alcohol value, aroma/taste/body etc., using Python and Machine Learning
 
+I tried to answer the questions in this blog:
+## http://tcbanalytics.com/blog/testing-data-skills.html#.WFWApHeZOb-
+
 ## Collection of Notebooks 
-beer-reco repository has a  bunch of python notebooks (.ipynb) that explain the flow of thought and answer few questions by ranking beers based on a feature and also generate some recommendations.
+beer-reco repository is a collection of jupyter notebooks (.ipynb) that explain the flow of thought and answer few questions by ranking beers based on a feature and also generate some recommendations.
 
-## 1. beer-reco-abv.ipynb
-Ranks beers based on alcohol % by volume and lists the top 10
+## 1. beer-reviews_analysis.ipynb
+Basic statistics of beer reviews analysis. Answers questions 1, 2 and 3 in the blog above
 
-## 2. beer-recommendation-reviews.ipynb
-One approach is to use simple sorting and ranking of statistical means of overall reviews for all beers to recommend the top few.
+## 2. beer-recommender system.ipynb
+Answers question  2 in the above blog using a different approach. Build a regression model similar to content-based recommender system and generate a parameter matrix for a user. Based on his ratings for some beers, compute the preferences of that particular user and recommend few more beers to that user which I think are most relevant based on this data.
 
-The other approach is to build a regression model similar to content-based recommender system and generate a parameter matrix for an average user. Given a new beer with an overall rating, we can guess the aroma/taste/body/palate of the beer or vice-versa.
-
-## 3. feature-selection.ipynb
-This notebook outlines the methods to identify the important feature among the few selected that is important in determining the overall rating for a beer. This is a simple yet powerful method to identify important features and discard features that doesn't have a significant contribution to the overall trend in the data.
-
-## 4. beerstyle-classification.ipynb
+## 3. beerstyle-classification.ipynb (coming soon..) Answer to question 4.
 Here we classify the beerstyles based on the features and develop a recommendation system for a user depending on his choice of features..for example, aroma and palate
