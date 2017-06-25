@@ -17,15 +17,9 @@ Examples:
 - Beer or top five beers with best overall review
 - Top five beers with best aroma.. etc
 
-## 3. Beer Rating Prediction.ipynb
-Starting from the data in the above notebook, regression models can be used to predict the overall ratings based on other attributes of the beer or predict a particular attribute based on overall rating and remaining attributes
-
-## 4.Beer Style Classification.ipynb 
-
-## 5.Dimensionality Reduction.ipynb 
-
-## 6.Collaborative filtering.ipynb 
+## 3.Personalized Recommendations.ipynb 
 Personalized recommendations usign collaborative filtering.
 
-## 7. Anomaly Detection.ipynb
+## 4. Beer Rating Prediction.ipynb (Coming Soon)
 
+## 5. Beer Style Classification.ipynb (Coming Soon)
