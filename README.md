@@ -20,6 +20,8 @@ Examples:
 ## 3.Personalized Recommendations.ipynb 
 Personalized recommendations usign collaborative filtering.
 
-## 4. Beer Rating Prediction.ipynb (Coming Soon)
+## 4. Beer Rating Prediction.ipynb
+Regression models to predict overall rating of a beer based on sample means of aroma, apperance, taste and palate.
+Includes cross-validation by splitting training and test data sets using KFold split and avergaing the model parameters over all sets. Includes some utility functions and scikit-learn method wrapper class.
 
 ## 5. Beer Style Classification.ipynb (Coming Soon)
